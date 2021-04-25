@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include <ctime>
 #include <cstdlib>
 #include <iomanip>
@@ -64,8 +64,8 @@ int main()
   }
   for (int v : num3)
     cout << v << endl;
-*/
-/*
+
+
   const int N =10;
   int num1[N];
   int num2[N];
@@ -93,7 +93,7 @@ int main()
   }
   for (int v : num3)
     cout << v << endl;
-*/
+
 
 
 const int N =10;
@@ -130,3 +130,9 @@ int makearray(int n[], int SIZE)
   cout << endl;
   
 }
+*/
+
+
+
+
+
