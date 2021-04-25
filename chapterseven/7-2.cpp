@@ -55,7 +55,15 @@ void applymask(int number[], int mask[], int last)
 {
   for (int i = 0; i < last; i++)
   {
-    number[i] = (mask[i] && number[i]) ? number[i] : 0;//The ? and : are part of the conditional operators syntax. The ? indicates that the left expression should be a boolean evaluation true or false. The : delineates the true and false results. The left-hand of : is the result if the expression evaluates to true and the right-hand of : is the result if the expression is false
+    //number[i] = (mask[i] && number[i]) ? number[i] : 0;//The ? and : are part of the conditional operators syntax. The ? indicates that the left expression should be a boolean evaluation true or false. The : delineates the true and false results. The left-hand of : is the result if the expression evaluates to true and the right-hand of : is the result if the expression is false.
+
+
+    if(mask[i])
+    {
+      number[i] = number[i];
+    }
+    else 
+      number[i] = 0;
   }
 }
 
